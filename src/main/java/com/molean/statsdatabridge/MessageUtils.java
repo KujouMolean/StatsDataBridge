@@ -10,7 +10,7 @@ public class MessageUtils {
     }
 
     public static void info(Audience player, String message) {
-        player.sendMessage(Component.text("§8[§3岛屿助手§8] §7" + message), MessageType.SYSTEM);
+        player.sendMessage(Component.text("§8[§3玩家助手§8] §7" + message), MessageType.SYSTEM);
     }
 
     public static void notify(Audience player, String message) {
@@ -26,11 +26,11 @@ public class MessageUtils {
     }
 
     public static void fail(Audience player, String message) {
-        player.sendMessage(Component.text("§8[§3岛屿助手§8] §c" + message), MessageType.SYSTEM);
+        player.sendMessage(Component.text("§8[§3玩家助理§8] §c" + message), MessageType.SYSTEM);
     }
 
     public static void success(Audience player, String message) {
-        player.sendMessage(Component.text("§8[§3岛屿助手§8] §6" + message), MessageType.SYSTEM);
+        player.sendMessage(Component.text("§8[§3玩家助理§8] §6" + message), MessageType.SYSTEM);
     }
 
     public static void custom(Audience player, String prefix, String message) {
