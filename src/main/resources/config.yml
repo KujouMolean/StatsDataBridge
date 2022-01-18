@@ -1,0 +1,7 @@
+enableStatsSync: true
+enableDataSync: false
+
+db:
+  url: jdbc:mysql://localhost/minecraft?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+  username: root
+  password: 123456

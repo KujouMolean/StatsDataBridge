@@ -1,0 +1,4 @@
+name: StatsDataBridge
+version: '${project.version}'
+main: com.molean.statsdatabridge.StatsDataBridge
+api-version: 1.18
